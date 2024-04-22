@@ -14,7 +14,7 @@
             Console.WriteLine("Capsule disponible");
             int Capsules = int.Parse(Console.ReadLine());
             
-            while (true) {
+        
 
             BeerMachine machine = new BeerMachine
             {
@@ -29,7 +29,7 @@
 
             Console.WriteLine($"Bouteille produit: {bottlesProduced}");
             Console.WriteLine($"Volume restant: {machine.AvalaibleBeerVolume} cl, Bottles: {machine.AvalaibleBottles}, Capsules: {machine.AvalaibleCapsules}");
-        } }
+        } 
     }
 
 }
